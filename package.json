@@ -1,0 +1,11 @@
+{
+  "name": "fittronic-signup",
+  "private": true,
+  "scripts": {
+    "start": "node server/server.js",
+    "import-roster": "node server/import-roster.js"
+  },
+  "engines": {
+    "node": ">=22.13"
+  }
+}
