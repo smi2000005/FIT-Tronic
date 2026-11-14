@@ -64,6 +64,8 @@ PREPARE add_account_id FROM @ddl;
 EXECUTE add_account_id;
 DEALLOCATE PREPARE add_account_id;
 
+-- DEMO DATA ONLY: these synthetic student IDs are placeholders for local testing.
+-- Replace this list with the real approved roster through a private, non-public process before deployment.
 INSERT IGNORE INTO approved_students (student_id) VALUES
     ('2026FIT1'), ('2026FIT2'), ('2026FIT3'), ('2026FIT4'), ('2026FIT5'),
     ('2026FIT6'), ('2026FIT7'), ('2026FIT8'), ('2026FIT9'), ('2026FIT10');
